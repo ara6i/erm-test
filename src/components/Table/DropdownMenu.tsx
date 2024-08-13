@@ -21,13 +21,19 @@ const DropdownMenu = () => {
               href="#"
               className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
             >
-              View History
+              View Details
             </a>
             <a
               href="#"
               className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
             >
-              Generate Report
+              Edit
+            </a>
+            <a
+              href="#"
+              className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+            >
+              Delete
             </a>
           </div>
         </div>
