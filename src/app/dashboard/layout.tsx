@@ -1,5 +1,3 @@
-// src/app/dashboard/layout.tsx
-
 import React from "react";
 import { SidebarProvider } from "../../context/SidebarContext";
 import Sidebar from "../../components/Layout/Sidebar";

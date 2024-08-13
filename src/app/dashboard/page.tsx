@@ -1,9 +1,7 @@
-// src/app/dashboard/page.tsx
-
 import React from "react";
 import Tabs from "../../components/Tabs/Tabs";
-import ItemMaster from "./item-master";
-import StockMovement from "./stock-movement";
+import ItemMaster from "./inventory/item-master";
+import StockMovement from "./inventory/stock-movement";
 
 const DashboardPage: React.FC = () => {
   const tabs = [
