@@ -34,7 +34,9 @@ const TableRow = ({ row }: any) => {
         <StatusIcon status={row.status} />
       </TableCell>
       <TableCell>
-        <DropdownMenu />
+        <div className="flex items-center justify-center">
+          <DropdownMenu />
+        </div>
       </TableCell>
     </tr>
   );
