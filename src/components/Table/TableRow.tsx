@@ -10,7 +10,6 @@ const TableRow = ({ row }: any) => {
     <tr className="border-b last:border-none h-14 p-4 text-center textGray">
       <TableCell>{row.itemCode}</TableCell>
       <TableCell>
-        {" "}
         <Link
           href={"/"}
           className="text-primary flex items-center justify-center gap-2"

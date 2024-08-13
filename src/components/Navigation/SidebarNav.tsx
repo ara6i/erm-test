@@ -64,7 +64,7 @@ const SidebarNav: React.FC = () => {
             className="w-8 h-8"
           />
           {isOpen && (
-            <span className="ml-4 text-sm text-gray-700 whitespace-nowrap">
+            <span className="ml-4 text-sm text-gray-700 whitespace-wrap">
               {item.label}
             </span>
           )}

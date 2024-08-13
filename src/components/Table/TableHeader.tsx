@@ -22,7 +22,7 @@ const TableHeader = () => {
     <thead className="bg-tableHeader text-white font-normal rounded-xl ">
       <tr>
         {headers.map((header, index) => (
-          <th key={index} className="px-4 py-6 text-center border-r-2">
+          <th key={index} className="px-4 py-6 text-center border-r-2 text-base font-semibold ">
             <div className="flex flex-col items-center gap-4">
               <div className="flex items-center space-x-2">
                 <span className="font-normal">{header.title}</span>

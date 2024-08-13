@@ -86,7 +86,7 @@ const ItemMaster: React.FC = () => {
     <div className="flex flex-col gap-8">
       <Overview />
       <HeaderSection />
-      <div className="bg-table rounded-2xl py-6 px-4 overflow-hidden">
+      <div className=" relative h-screen ">
         <Table data={data} />
       </div>
     </div>

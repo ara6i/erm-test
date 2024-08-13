@@ -17,7 +17,7 @@ const DashboardPage: React.FC = () => {
     },
   ];
   return (
-    <div className="p-6 bg-content min-h-screen flex items-center justify-center overflow-hidden">
+    <div className="p-6 bg-content min-h-screen ">
       <Tabs tabs={tabs} />
     </div>
   );
