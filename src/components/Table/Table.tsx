@@ -52,7 +52,7 @@ const Table = ({ data }: any) => {
         </div>
       </form>
       {/* Container with horizontal scroll */}
-      <table className="bg-white rounded-xl shadow max-w-full min-w-[1400px]">
+      <table className="bg-white rounded-xl  shadow max-w-full min-w-[1400px]">
         {" "}
         {/* Table setup */}
         <TableHeader />
