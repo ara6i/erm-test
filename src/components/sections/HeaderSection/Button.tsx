@@ -19,9 +19,8 @@ const Button: React.FC<ButtonProps> = ({
 }) => {
   const baseClasses =
     "flex items-center justify-center rounded-lg px-4 py-2 text-sm font-medium focus:outline-none transition-colors duration-300";
-  const primaryClasses = "bg-primary text-white hover:bg-primary";
-  const secondaryClasses =
-    "border border-primary text-primary hover:bg-primary";
+  const primaryClasses = "bg-primary text-white ";
+  const secondaryClasses = "border border-primary text-primary ";
 
   return (
     <button
