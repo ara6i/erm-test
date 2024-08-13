@@ -1,9 +1,17 @@
-import React, { useState } from "react";
+import React from "react";
 import RowsPerPage from "./RowsPerPage";
 import PageControls from "./PageControls";
 import PageSummary from "./PageSummary";
 
-const Pagination = ({
+interface PaginationProps {
+  totalRows: number;
+  rowsPerPage: number;
+  setRowsPerPage: (rowsPerPage: number) => void;
+  currentPage: number;
+  onPageChange: (page: number) => void;
+}
+
+const Pagination: React.FC<PaginationProps> = ({
   totalRows,
   rowsPerPage,
   setRowsPerPage,
@@ -13,7 +21,7 @@ const Pagination = ({
   const totalPages = Math.ceil(totalRows / rowsPerPage);
 
   return (
-    <div className="flex items-center text-sm justify-center gap-10  p-4 border-t border-gray-200">
+    <div className="flex items-center text-sm justify-center gap-10 p-4 border-t border-gray-200">
       <RowsPerPage rowsPerPage={rowsPerPage} setRowsPerPage={setRowsPerPage} />
       <PageControls
         currentPage={currentPage}

@@ -6,7 +6,17 @@ import {
   FaAngleDoubleRight,
 } from "react-icons/fa";
 
-const PageControls = ({ currentPage, totalPages, onPageChange }) => {
+interface PageControlsProps {
+  currentPage: number;
+  totalPages: number;
+  onPageChange: (page: number) => void;
+}
+
+const PageControls: React.FC<PageControlsProps> = ({
+  currentPage,
+  totalPages,
+  onPageChange,
+}) => {
   return (
     <div className="flex items-center space-x-2">
       <button

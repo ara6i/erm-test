@@ -1,6 +1,16 @@
-import React from 'react';
+import React from "react";
 
-const PageSummary = ({ currentPage, rowsPerPage, totalRows }) => {
+interface PageSummaryProps {
+  currentPage: number;
+  rowsPerPage: number;
+  totalRows: number;
+}
+
+const PageSummary: React.FC<PageSummaryProps> = ({
+  currentPage,
+  rowsPerPage,
+  totalRows,
+}) => {
   const rowStart = currentPage * rowsPerPage + 1;
   const rowEnd = Math.min(rowStart + rowsPerPage - 1, totalRows);
 

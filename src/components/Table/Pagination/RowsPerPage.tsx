@@ -1,6 +1,14 @@
 import React from "react";
 
-const RowsPerPage = ({ rowsPerPage, setRowsPerPage }) => {
+interface RowsPerPageProps {
+  rowsPerPage: number;
+  setRowsPerPage: (rows: number) => void;
+}
+
+const RowsPerPage: React.FC<RowsPerPageProps> = ({
+  rowsPerPage,
+  setRowsPerPage,
+}) => {
   return (
     <div className="flex items-center">
       <span className="text-gray-600 mr-2">Rows per page:</span>
