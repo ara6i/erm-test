@@ -1,7 +1,9 @@
 import React from "react";
 
-const StatusIcon = ({ status }) => {
-  const statusColors = {
+type Status = "active" | "inactive" | "pending";
+
+const StatusIcon = ({ status }: { status: Status }) => {
+  const statusColors: Record<Status, string> = {
     active: "bg-green-500",
     inactive: "bg-red-500",
     pending: "bg-yellow-500",

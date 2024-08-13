@@ -5,7 +5,7 @@ import StatusIcon from "./icons/StatusIcon";
 import Image from "next/image";
 import Link from "next/link";
 
-const TableRow = ({ row }) => {
+const TableRow = ({ row }: any) => {
   return (
     <tr className="border-b last:border-none h-14 p-4 text-center textGray">
       <TableCell>{row.itemCode}</TableCell>
