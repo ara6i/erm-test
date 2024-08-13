@@ -18,11 +18,13 @@ const config: Config = {
         border: "#EDEDED",
         table: "#F2F2F2",
         tableHeader: "#44488C",
+        primary: "#6B54C8",
       },
       boxShadow: {
         header: "0px 2px 4px 0px #00000033",
         sidebar: "1px 0px 4px 0px #00000014",
         card: "0px 0px 12px 0px #00000014",
+        textGray: "#333333",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

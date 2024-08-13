@@ -1,7 +1,7 @@
 // src/app/dashboard/page.tsx
 
 import React from "react";
-import Tabs from "../components/Tabs/Tabs";
+import Tabs from "../../components/Tabs/Tabs";
 import ItemMaster from "./item-master";
 import StockMovement from "./stock-movement";
 
@@ -17,7 +17,7 @@ const DashboardPage: React.FC = () => {
     },
   ];
   return (
-    <div className="p-6 bg-content min-h-screen">
+    <div className="p-6 bg-content min-h-screen flex items-center justify-center overflow-hidden">
       <Tabs tabs={tabs} />
     </div>
   );

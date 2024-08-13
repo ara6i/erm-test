@@ -1,9 +1,9 @@
 // src/app/dashboard/layout.tsx
 
 import React from "react";
-import { SidebarProvider } from "../context/SidebarContext";
-import Sidebar from "../components/Layout/Sidebar";
-import Header from "../components/Layout/Header";
+import { SidebarProvider } from "../../context/SidebarContext";
+import Sidebar from "../../components/Layout/Sidebar";
+import Header from "../../components/Layout/Header";
 
 const DashboardLayout: React.FC<{ children: React.ReactNode }> = ({
   children,

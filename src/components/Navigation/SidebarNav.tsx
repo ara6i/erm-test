@@ -1,6 +1,6 @@
 "use client";
 
-import { useSidebar } from "@/app/context/SidebarContext";
+import { useSidebar } from "@/context/SidebarContext";
 import Image from "next/image";
 import React from "react";
 
@@ -15,19 +15,19 @@ const navItems = [
     icon: "/icons/basket.svg",
     label: "Purchase Order",
     alt: "purchase order",
-    link: "/dashboard/item-master",
+    link: "/dashboard",
   },
   {
     icon: "/icons/bill.svg",
     label: "GRN",
     alt: "grn",
-    link: "/dashboard/stock-management",
+    link: "/dashboard",
   },
   {
     icon: "/icons/vendor.svg",
     label: "Vendor Management",
     alt: "vendor management",
-    link: "/dashboard/reports",
+    link: "/dashboard",
   },
   {
     icon: "/icons/material.svg",
@@ -39,7 +39,7 @@ const navItems = [
     icon: "/icons/ware.svg",
     label: "Warehouse Management",
     alt: "warehouse management",
-    link: "/logout",
+    link: "/dashboard",
   },
 ];
 

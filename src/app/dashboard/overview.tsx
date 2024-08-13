@@ -1,7 +1,7 @@
 // src/pages/dashboard/overview.tsx
 
 import React from "react";
-import Card from "../components/UI/Card";
+import Card from "../../components/UI/Card";
 
 const Overview: React.FC = () => {
   const cardData = [

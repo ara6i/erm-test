@@ -1,6 +1,6 @@
 "use client";
 
-import { useSidebar } from "@/app/context/SidebarContext";
+import { useSidebar } from "@/context/SidebarContext";
 import Image from "next/image";
 import React from "react";
 import SidebarNav from "../Navigation/SidebarNav";

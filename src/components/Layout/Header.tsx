@@ -3,7 +3,7 @@
 import React from "react";
 
 import Image from "next/image";
-import { useSidebar } from "@/app/context/SidebarContext";
+import { useSidebar } from "@/context/SidebarContext";
 
 const Header: React.FC = () => {
   const { isOpen, toggleSidebar } = useSidebar();

@@ -14,7 +14,7 @@ const SidebarContext = createContext<SidebarContextProps | undefined>(
 export const SidebarProvider: React.FC<{ children: ReactNode }> = ({
   children,
 }) => {
-  const [isOpen, setIsOpen] = useState(false); // Sidebar starts closed
+  const [isOpen, setIsOpen] = useState(true);
 
   const toggleSidebar = () => {
     setIsOpen((prev) => !prev);
