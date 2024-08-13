@@ -7,7 +7,7 @@ const AuthLayout = ({ children }: { children: React.ReactNode }) => {
       {/* Left section with image and overlay */}
       <div className="hidden md:flex w-1/2 relative">
         <Image
-          src="/mock/auth.png"
+          src="/auth.png"
           alt="Laboratory Image"
           layout="fill"
           objectFit="cover"
