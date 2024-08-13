@@ -31,7 +31,7 @@ const ActionSelect: React.FC = () => {
           <div className="py-1">
             <a
               href="#"
-              className="flex gap-2 items-center px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+              className="flex gap-4 items-center px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
             >
               <Image
                 src=" /icons/updateStock.svg"
@@ -49,7 +49,7 @@ const ActionSelect: React.FC = () => {
             </a>
             <a
               href="#"
-              className="flex gap-2 items-center px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+              className="flex gap-4 items-center px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
             >
               <Image
                 src="/icons/stock.svg"
@@ -67,7 +67,7 @@ const ActionSelect: React.FC = () => {
             </a>
             <a
               href="#"
-              className="flex gap-2 items-center px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+              className="flex gap-4 items-center px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
             >
               <Image
                 src="/icons/categories.svg"
