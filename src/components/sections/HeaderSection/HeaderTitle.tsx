@@ -6,7 +6,7 @@ const HeaderTitle: React.FC = () => {
     <div className="flex items-center">
       <h1 className="text-xl font-semibold text-gray-800">Item Master</h1>
       <Image
-        src="/icons/info.svg"
+        src="/info.svg"
         alt="Info"
         width={20}
         height={20}
