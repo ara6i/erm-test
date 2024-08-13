@@ -14,9 +14,7 @@ const Header: React.FC = () => {
     >
       <div className="flex items-center space-x-4">
         {/* Toggle Sidebar Button */}
-        <button onClick={toggleSidebar} className="lg:hidden p-2">
-          {/* You can use a menu icon here if you want to show it */}
-        </button>
+        <button onClick={toggleSidebar} className="lg:hidden p-2"></button>
       </div>
       <div className="flex items-center justify-end gap-12">
         <button>
@@ -40,7 +38,7 @@ const Header: React.FC = () => {
 
         <div className="relative w-10 h-10 rounded-full overflow-hidden">
           <Image
-            src="/mock/profile.png" // Replace with the actual path to the avatar image
+            src="/mock/profile.png"
             alt="User Avatar"
             layout="fill"
             objectFit="cover"
